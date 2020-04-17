@@ -14,10 +14,10 @@
 #' @seealso [ukc_neighbourhood_location()]
 #'
 #' @examples
-#' \donttest{
-#' borders <- ukc_neighbourhood_boundary("dorset", "10-1")
+#' \dontrun{
+#' borders <- ukc_neighbourhood_boundary("dorset", "55.CR3001")
 #' }
-#' 
+#'
 ukc_neighbourhood_boundary <- function(force, neighbourhood_id) {
   if (missing(force)) {
     stop("The police force must be specified", call. = FALSE)

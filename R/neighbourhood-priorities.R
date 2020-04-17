@@ -16,10 +16,10 @@
 #' @seealso [ukc_neighbourhoods()]
 #' @rdname ukc_neighbourhood_specific
 #' @examples
-#' \donttest{
-#' priorities <- ukc_neighbourhood_team("dorset", "10-2")
+#' \dontrun{
+#' priorities <- ukc_neighbourhood_team("dorset", "55.CR3001")
 #' }
-#' 
+#'
 ukc_neighbourhood_priorities <- function(force, neighbourhood_id) {
   if (missing(force)) {
     stop("The police force must be specified", call. = FALSE)

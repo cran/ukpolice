@@ -1,8 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Travis build
@@ -14,7 +12,7 @@ status](https://codecov.io/gh/evanodell/ukpolice/branch/master/graph/badge.svg)]
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/ukpolice)](https://cran.r-project.org/package=ukpolice)
 [![GitHub
 tag](https://img.shields.io/github/tag/evanodell/ukpolice.svg)](https://github.com/evanodell/ukpolice)
-[![](https://cranlogs.r-pkg.org/badges/grand-total/ukpolice)](https://dgrtwo.shinyapps.io/cranview/)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/ukpolice)](https://cran.r-project.org/package=ukpolice)
 [![DOI](https://zenodo.org/badge/178673884.svg)](https://zenodo.org/badge/latestdoi/178673884)
 
 # ukpolice
@@ -23,8 +21,12 @@ The `ukpolice` package downloads data from the UK Police public data
 API, the full docs of which are available at
 <https://data.police.uk/docs/>.
 
+It can be installed from CRAN with:
+
+    install.packages("ukpolice")
+
 Data is available on police forces, crimes, policing areas and
-stop-and-search. All functions begin with `ukc_`.
+stop-and-search.
 
 The example below queries stop and searches by the Thames Valley Police
 in December 2018, and plots them by police-reported ethnic group.
