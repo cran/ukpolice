@@ -1,4 +1,15 @@
 
+# ukpolice 0.1.4.9000
+
+* Added Nick Tierney as author, with new `ukc_poly_*` functions, which accept
+  `sf` and `sp` objects as well as dataframes of lat/long pairs.
+
+* Deprecated `ukc_crime_location()` in favour of `ukc_crime_coord()` and
+  `ukc_crime_loc()`, for consistent function names.
+  
+* Now using the `httr` for better messages and handling of requests.
+
+
 # ukpolice 0.1.4
 
 * Changed \donttest to \dontrun to avoid CRAN errors and overburdening the API.
@@ -8,6 +19,14 @@
 # ukpolice 0.1.3
 
 * Remove vignette section causing errors on CRAN.
+
+* Adding in `ukc_available()` function.
+
+* Documentation improvements.
+
+## Code Changes
+
+* Revision to structure of location based searches
 
 # ukpolice 0.1.2
 

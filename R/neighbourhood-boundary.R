@@ -6,7 +6,7 @@
 #'
 #' @inheritParams ukc_neighbourhood_specific
 #'
-#' @return A tibble with the lat/lng boundaries for a specific neighbourhood.
+#' @return A `tibble` with the lat/lng boundaries for a specific neighbourhood.
 #' @export
 #'
 #' @seealso [ukc_neighbourhoods()]

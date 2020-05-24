@@ -12,9 +12,9 @@
 #'
 #' @export
 #'
-#' @seealso [ukc_neighbourhood_boundary()]
-#' @seealso [ukc_neighbourhoods()]
-#' @seealso [ukc_neighbourhood_location()]
+# @seealso [ukc_neighbourhood_boundary()]
+# @seealso [ukc_neighbourhoods()]
+# @seealso [ukc_neighbourhood_location()]
 #' @rdname ukc_neighbourhood_specific
 #' @examples
 #' \dontrun{

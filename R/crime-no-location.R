@@ -2,7 +2,7 @@
 #' Crimes without location
 #'
 #' Returns details of crimes that cannot be mapped to a particular location.
-#' Note that the police force must be specified
+#' Note that the police force must be specified.
 #'
 #' @param force A string containing the name of the police force to return data
 #' for. Must be specified, and is not case sensitive.
@@ -13,7 +13,7 @@
 #' available month will be returned. Also accepts dates in formats that can be
 #' coerced to `Date` class with `as.Date()`.
 #'
-#' @return A tibble with details of crimes without a specific location.
+#' @return A `tibble` with details of crimes without a specific location.
 #' @export
 #'
 #' @examples
@@ -36,7 +36,10 @@ ukc_crime_no_location <- function(force, crime_category = NULL, date = NULL) {
     crime_query <- paste0(crime_category, "&")
   }
 
-  query <- paste0("crimes-no-location?category=", crime_query, force_query, date_query)
+  query <- paste0(
+    "crimes-no-location?category=", crime_query,
+    force_query, date_query
+  )
 
   df <- ukc_get_data(query)
 

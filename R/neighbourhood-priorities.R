@@ -12,8 +12,8 @@
 #'
 #' @export
 #'
-#' @seealso [ukc_neighbourhood_boundary()]
-#' @seealso [ukc_neighbourhoods()]
+# @seealso [ukc_neighbourhood_boundary()]
+# @seealso [ukc_neighbourhoods()]
 #' @rdname ukc_neighbourhood_specific
 #' @examples
 #' \dontrun{

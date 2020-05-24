@@ -6,7 +6,7 @@
 #'
 #'
 #' @param force The id of the police force, available from the `id` column
-#' returned by `ukc_forces`.
+#' returned by `ukc_forces`. Not case sensitive.
 #'
 #' @rdname ukc_forces
 #' @return `ukc_forces` returns a `tibble` with all police forces in England
@@ -17,8 +17,10 @@
 #' @examples
 #' \dontrun{
 #' forces <- ukc_forces()
-#' 
+#'
 #' cops <- ukc_officers("cumbria")
+#'
+#' details <- ukc_force_details("thames-valley")
 #' }
 ukc_forces <- function() {
   df <- ukc_get_data("forces")
@@ -32,10 +34,11 @@ ukc_forces <- function() {
 #' @export
 #' @rdname ukc_forces
 ukc_force_details <- function(force = NULL) {
-  query <- paste0("forces/", force)
-
-  df <- ukc_get_data(query)
-
+  if (is.null(force)) {
+    df <- ukc_get_data("forces")
+  } else {
+    df <- ukc_get_data(paste0("forces/", force))
+  }
   df
 }
 
