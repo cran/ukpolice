@@ -1,7 +1,7 @@
-97a71bd886b2070e70465f0bfbaaba65 *DESCRIPTION
-8e0c47e3a617f92328ebcbedca41ce8e *LICENSE
+b204dfdf2067df73d6a3b32a0a01e88f *DESCRIPTION
+e0909fb0d63a203566eb47f8e77aa766 *LICENSE
 35fa3af618416444d68d1d8261dc45f2 *NAMESPACE
-58c6d99c6b40f2b5c7e23a03f0c6271a *NEWS.md
+a5de4b687417ac09f1757476589a79d1 *NEWS.md
 e33cfad38996ad14d44666ce420c7085 *R/available-data.R
 b66a3aa180effdefb8c44f43f47da087 *R/crime-at-location.R
 93fd0ed9216b5165dd03c7070368a267 *R/crime-category.R
@@ -34,7 +34,7 @@ a0cf25817504b2d88bb80d05133b5ce8 *build/vignette.rds
 048cd734549c7bc2a4950c722d121847 *inst/CITATION
 e899e37e77acff0fd4d305dfcd0a68af *inst/doc/introduction.R
 61b25ddba1d956491694032d7fa4c96a *inst/doc/introduction.Rmd
-c94945f786f820c1e466ccea023da8e8 *inst/doc/introduction.html
+c27d57a0710b5447078cda68f1472009 *inst/doc/introduction.html
 16725ac04463ac40e57cb9b7399d6f1b *man/figures/README-example-1.png
 6cdb14b2812b0f9517158aced928ca2e *man/ukc_available.Rd
 fbb5d336987d42e6197434885927d1dc *man/ukc_crime_category.Rd
@@ -55,12 +55,12 @@ a6fb9a901c6f64cae882b8ff27f9be19 *man/ukc_stop_search_no_location.Rd
 d2222b79556817a16e8c9073e7025035 *man/ukpolice-package.Rd
 c481dc1d325adbb3ac07a19ea9edca71 *tests/testthat.R
 7651498cc0e07e0a9fc14a3e6bee2190 *tests/testthat/test-crime-at-location.R
-b8d7f98daaf205df468305120629fea3 *tests/testthat/test-empty-functions.R
+d9498e99644ba0a24af6784cb788a2a4 *tests/testthat/test-empty-functions.R
 d0dede3db20d0c7e5bdc813a04c9ad02 *tests/testthat/test-forces.R
 661dc3a26e7ba43d2de40784b2aab72a *tests/testthat/test-neighbourhood-boundary.R
 673e9d9526ad052e26f85d6f9cb2f90a *tests/testthat/test-neighbourhood.R
 b466e7bd3bae402d3b944951db5f93d0 *tests/testthat/test-specific-crime-no-location-crime.R
-675d319e4b165047dde60fb66a343c06 *tests/testthat/test-stop-and-search.R
+ef0865db7f877d82b8d2835ac14871f1 *tests/testthat/test-stop-and-search.R
 0f7916541e9910716a4c7ab1ef3127ce *tests/testthat/test-street-crime.R
 61b25ddba1d956491694032d7fa4c96a *vignettes/introduction.Rmd
 3329de5429011122b87867b6a5ed7d0f *vignettes/stop-search.png
